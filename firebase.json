@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "Gemfile",
+      "Gemfile.lock",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

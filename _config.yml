@@ -1,0 +1,14 @@
+# Site settings
+title               : تذكرتك
+description         : طريقة جديدة لدفع تذاكر وسائل المواصلات عن طريق الهواتف الذكية
+url                 : https://tazkrtak.web.app
+
+# Build settings
+markdown            : kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - debug.log
+  - firebase.json
