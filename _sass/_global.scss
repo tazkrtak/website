@@ -15,4 +15,14 @@ body {
   &-thumb {
     background: #63f0b1;
   }
+
+  &-track {
+    background: green;
+  }
+}
+
+#intro {
+  background-image: url(/assets/buses.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

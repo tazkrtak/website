@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% assign section_class = "row min-vh-100 align-items-center text-center" %}
+{% assign section_class = "row min-vh-100 align-items-center justify-content-center text-center py-5" %}
 
-<div class="{{ section_class }}">
+<div id="intro" class="{{ section_class }}">
   <div class="col">
     <h1 class="display-1 font-weight-bold">{{ site.title }}</h1>
     <p>{{ site.description }}</p>
@@ -12,7 +12,7 @@ layout: default
 </div>
 
 <div id="about" class="{{ section_class }}">
-  <div class="col">
+  <div class="col-lg-7">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ site.video_id }}" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
