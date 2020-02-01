@@ -1,0 +1,11 @@
+- name: عن التطبيق
+  link: \#about
+
+- name: المميزات
+  link: \#features
+
+- name: الفريق
+  link: \#team
+
+- name: التواصل
+  link: \#contact

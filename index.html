@@ -2,18 +2,38 @@
 layout: default
 ---
 
-<div class="row py-5">
-  
-  <div class="col-12 text-center text-white">
+{% assign section_class = "row min-vh-100 align-items-center text-center" %}
+
+<div class="{{ section_class }}">
+  <div class="col">
     <h1 class="display-1 font-weight-bold">{{ site.title }}</h1>
     <p>{{ site.description }}</p>
   </div>
+</div>
 
-  <div class="col-12 my-5">
+<div id="about" class="{{ section_class }}">
+  <div class="col">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ site.video_id }}" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
+</div>
 
+<div id="features" class="{{ section_class }}">
+  <div class="col">
+    <h1 class="display-1 font-weight-bold">المميزات</h1>
+  </div>
+</div>
+
+<div id="team" class="{{ section_class }}">
+  <div class="col">
+    <h1 class="display-1 font-weight-bold">الفريق</h1>
+  </div>
+</div>
+
+<div id="contact" class="{{ section_class }}">
+  <div class="col">
+    <h1 class="display-1 font-weight-bold">التواصل</h1>
+  </div>
 </div>

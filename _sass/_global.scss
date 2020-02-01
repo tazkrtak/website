@@ -1,7 +1,18 @@
-html, body {
-  height: 100%;
+html {
   direction: rtl;
-  text-align: right;
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: "Almarai", sans-serif;
-  background: #32BA7C;
+  background: #32ba7c;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+
+  &-thumb {
+    background: #63f0b1;
+  }
 }

@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ar">
 
 {% include head.html %}
 
-<body class="container">
-  {{ content }}
+<body>
+
+  {% include navbar.html %}
+
+  <div class="container">
+    {{ content }}
+  </div>
+  
   {% include scripts.html %}
+
 </body>
 
 </html>
