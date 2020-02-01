@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "**/.github": true,
+    "**/.firebase": true,
+    "**/.firebaserc": true,
+    "**/firebase.json": true,
+    "**/.sass-cache": true
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
