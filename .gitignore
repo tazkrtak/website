@@ -3,6 +3,10 @@ _site
 .sass-cache
 .jekyll-metadata
 
+# Ruby Gems
+.bundle
+Gemfile.lock
+
 # Firebase cache
 .firebase/
 
