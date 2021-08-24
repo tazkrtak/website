@@ -1,27 +1,17 @@
 html {
   direction: rtl;
-  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Almarai", sans-serif;
-}
-
-::-webkit-scrollbar {
-  width: 4px;
-
-  &-thumb {
-    background: #63f0b1;
-  }
-
-  &-track {
-    background: green;
-  }
+  font-size: 19px;
 }
 
 #intro {
   min-height: 100vh;
   color: white;
+  background-color: rgba(0, 0, 0, 0.32);
+  background-blend-mode: multiply;
   background-image: url(/assets/buses.jpg);
   background-size: cover;
   background-repeat: no-repeat;
