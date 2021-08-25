@@ -12,3 +12,6 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+# For LiveReload: https://robbinespu.gitlab.io/posts/jekyll-unable-load-eventmachine/
+gem 'eventmachine', '1.2.7', github: 'eventmachine/eventmachine', tag: 'v1.2.7'
+
