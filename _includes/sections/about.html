@@ -1,7 +1,19 @@
 <section id="about" class="row green">
   <div class="col-lg-7 text-center">
+    <h1>
+      حاصل علي المركز الأول في
+      <br />
+      <a href="http://govapp-award.eg/" class="text-white font-weight-bold">جائزة مصر لتطبيقات الخدمات الحكومية</a>
+    </h1>
+    <div class="row justify-content-center my-3">
+      {% for newspaper in site.data.news %}
+        <a href="{{ newspaper.url }}" class="m-4">
+          <img class="newspaper-logo" src="{{ newspaper.logo }}" height="60">
+        </a>
+      {% endfor %}
+    </div>
     <p>{{ site.long_description }}</p>
-    <div class="embed-responsive embed-responsive-16by9 mt-5">
+    <div class="embed-responsive embed-responsive-16by9 mt-5 rounded-lg">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ site.video_id }}" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
